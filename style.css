@@ -115,7 +115,6 @@ li p {
     margin-left: 23px;
 }
 
-
 main {
     display: flex;
     align-items: center;
@@ -139,7 +138,8 @@ main {
     align-items: center;
     justify-content: space-between;
 }
-.container {
+
+.div-max-right {
     background: #fff;
     padding: 20px;
     border-radius: 10px;
@@ -147,6 +147,7 @@ main {
     margin-left: 15px;
     box-shadow: 22px 3px 17px -3px rgba(34, 60, 80, 0.2);
 }
+
 .tabs {
     display: flex;
     gap: 10px;
@@ -166,14 +167,14 @@ main {
     color: white;
 }
 
-.controls {
+.div-right-4 {
     display: flex;
     align-items: center;
     gap: 10px;
     margin-bottom: 15px;
 }
 
-.controls button {
+.div-right-4 button {
     padding: 5px 10px;
     background: #ddd;
     border: none;
@@ -186,9 +187,6 @@ table {
     border-collapse: collapse;
 }
 
-thead {
-    background: #f0f0f0;
-}
 
 th,
 td {
